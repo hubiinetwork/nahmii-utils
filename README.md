@@ -12,8 +12,8 @@ See www.hubii.com for more information.
 
 ## Prerequisites
 
-To use this software you need a version of **NodeJS and NPM**. The code base currently supports NodeJS 
-v8.x and v10.x.
+To use this software you need a version of **NodeJS and NPM**. The code base has been successfully tested
+with NodeJS LTS versions v10.x and v12.x.
 
 ## Installation
 
