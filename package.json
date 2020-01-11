@@ -1,0 +1,35 @@
+{
+  "name": "nahmii-utils",
+  "version": "1.0.0",
+  "description": "Utils for working with nahmii",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npm run lint:es",
+    "lint:es": "eslint --ignore-path .gitignore .",
+    "lint:es:fix": "npm run lint:es -- --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nahmii",
+    "ethereum"
+  ],
+  "author": "Jens Ivar Jørdre <jensivar@hubii.com>",
+  "license": "UNLICENSED",
+  "bin": {
+    "add-keystore-file": "src/add-keystore-file.js",
+    "private-key-to-keystore-file": "src/private-key-to-keystore-file.js"
+  },
+  "dependencies": {
+    "bson": "1.1.1",
+    "ethereumjs-util": "^6.2.0",
+    "ethereumjs-wallet": "^0.6.3",
+    "ethers": "^4.0.42",
+    "nahmii-ethereum-address": "^2.1.1",
+    "nahmii-sdk": "^4.1.4",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "@hubiinetwork/eslint-config": "github:hubiinetwork/eslint-config",
+    "eslint": "^6.8.0"
+  }
+}
