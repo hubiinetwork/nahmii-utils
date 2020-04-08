@@ -29,7 +29,7 @@ The binary for generation of keystore file from private and password is
 To show the built-in help:
 
     > private-key-to-keystore-file --help
-    Usage: private-key-to-keystore-file [--outdir] <privateKey> <password>
+    Usage: private-key-to-keystore-file [--out-dir] <privateKey> <password>
     
     Options:
       --out-dir  Output directory
@@ -44,7 +44,7 @@ outputs into a keystore file exists as `add-keystore-file`.
 To show the built-in help:
 
     > add-keystore-file --help
-    Usage: add-keystore-file [--dump-private-key] [--outdir] <password>
+    Usage: add-keystore-file [--dump-private-key] [--out-dir] <password>
     
     Options:
       --dump-private-key  Dump the private key to console [boolean] [default: false]

@@ -7,7 +7,7 @@ const homedir = require('os').homedir();
 const Wallet = require('ethereumjs-wallet');
 
 const argv = require('yargs')
-  .usage('Usage: $0 [--dump-private-key] [--outdir] <password>')
+  .usage('Usage: $0 [--dump-private-key] [--out-dir=<out-dir>] <password>')
   .options({
     'dump-private-key': {
       describe: 'Dump the private key to console',

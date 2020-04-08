@@ -9,7 +9,7 @@ const EthUtil = require('ethereumjs-util');
 const {utils} = require('nahmii-sdk');
 
 const argv = require('yargs')
-  .usage('Usage: $0 [--outdir] <privateKey> <password>')
+  .usage('Usage: $0 [--out-dir=<out-dir>] <privateKey> <password>')
   .options({
     'out-dir': {
       describe: 'Output directory',
